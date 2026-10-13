@@ -1,0 +1,8 @@
+{
+  "name": "Post Studio",
+  "description": "Mobile Instagram and TikTok post editor with Canva and Photoshop-style layer selection, rich polygonal shapes, image cropping, and custom templates.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

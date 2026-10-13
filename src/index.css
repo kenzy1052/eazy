@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+/* --------------------------------------------------------------------------
+   Design tokens. One strong primary, neutral surfaces, clear text colours.
+   No gradients anywhere in the app chrome.
+   -------------------------------------------------------------------------- */
+@theme {
+  --color-ink: #12131A;
+  --color-ink-2: #454A55;
+  --color-ink-3: #868D9C;
+  --color-line: #E8EAEF;
+  --color-surface: #FFFFFF;
+  --color-canvasbg: #F3F4F7;
+  --color-brand: #F02D63;
+  --color-brand-dark: #D31F52;
+  --color-brand-soft: #FEE9F0;
+  --color-mint: #12C2A0;
+  --color-mint-soft: #E3F8F3;
+}
+
+html, body, #root { height: 100%; }
+
+body {
+  background: #F3F4F7;
+  color: #12131A;
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior: none;
+}
+
+* { -webkit-tap-highlight-color: transparent; }
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+}
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 4px;
+  border-radius: 999px;
+  background: #E5E5E5;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 22px;
+  width: 22px;
+  margin-top: -9px;
+  border-radius: 999px;
+  background: #fff;
+  border: 2px solid #F02D63;
+  box-shadow: 0 2px 6px rgba(18,19,26,.18);
+}
+input[type="range"]::-moz-range-track { height: 4px; border-radius: 999px; background: #E5E5E5; }
+input[type="range"]::-moz-range-thumb {
+  height: 22px; width: 22px; border-radius: 999px; background: #fff;
+  border: 2px solid #F02D63; box-shadow: 0 2px 6px rgba(18,19,26,.18);
+}
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+@keyframes sheet-up {
+  from { transform: translateY(12px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+.sheet-in { animation: sheet-up .18s cubic-bezier(.2,.8,.3,1); }
+
+.dark {
+  --color-ink: #F3F4F7;
+  --color-ink-2: #868D9C;
+  --color-ink-3: #454A55;
+  --color-line: #2A2E38;
+  --color-surface: #12131A;
+  --color-canvasbg: #08090C;
+  --color-brand-soft: #2D0F1B;
+}

@@ -1,0 +1,30 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tPinkTopGrad" x1="290" y1="312" x2="770" y2="312" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#C7154B"/>
+      <stop offset="48%" stop-color="#F02D63"/>
+      <stop offset="100%" stop-color="#FF5A87"/>
+    </linearGradient>
+
+    <linearGradient id="tPinkMidGrad" x1="235" y1="512" x2="615" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#A80E3D"/>
+      <stop offset="46%" stop-color="#E02257"/>
+      <stop offset="100%" stop-color="#FF4D7E"/>
+    </linearGradient>
+
+    <linearGradient id="tPinkBotGrad" x1="290" y1="712" x2="770" y2="712" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#BF1347"/>
+      <stop offset="48%" stop-color="#F02D63"/>
+      <stop offset="100%" stop-color="#FF386E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Top Pill -->
+  <rect x="290" y="225" width="480" height="175" rx="87.5" fill="url(#tPinkTopGrad)"/>
+
+  <!-- Middle Pill -->
+  <rect x="235" y="425" width="380" height="175" rx="87.5" fill="url(#tPinkMidGrad)"/>
+
+  <!-- Bottom Pill -->
+  <rect x="290" y="625" width="480" height="175" rx="87.5" fill="url(#tPinkBotGrad)"/>
+</svg>

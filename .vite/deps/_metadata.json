@@ -1,0 +1,58 @@
+{
+  "hash": "b02cc00b",
+  "configHash": "5d078f0a",
+  "lockfileHash": "f86e3edf",
+  "browserHash": "38531821",
+  "optimized": {
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "d5a21789",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "222641ed",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "ef15d25a",
+      "needsInterop": true
+    },
+    "zustand": {
+      "src": "../../node_modules/zustand/esm/index.mjs",
+      "file": "zustand.js",
+      "fileHash": "2bdd08c6",
+      "needsInterop": false
+    },
+    "zustand/middleware": {
+      "src": "../../node_modules/zustand/esm/middleware.mjs",
+      "file": "zustand_middleware.js",
+      "fileHash": "6514d95f",
+      "needsInterop": false
+    },
+    "uuid": {
+      "src": "../../node_modules/uuid/dist/index.js",
+      "file": "uuid.js",
+      "fileHash": "a22d9695",
+      "needsInterop": false
+    },
+    "html-to-image": {
+      "src": "../../node_modules/html-to-image/es/index.js",
+      "file": "html-to-image.js",
+      "fileHash": "6c54bcee",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-P42KXB4K": {
+      "file": "chunk-P42KXB4K.js"
+    },
+    "chunk-5WRI5ZAA": {
+      "file": "chunk-5WRI5ZAA.js"
+    }
+  }
+}
